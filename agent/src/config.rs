@@ -10,14 +10,14 @@ use crate::env_check::EnvCheck;
 
 // Config consts
 pub const URL_BASE: &str = "https://api.notion.com/v1";
-pub const DEFAULT_API_KEY: &str = "<<API_KEY>>";
-pub const DEFAULT_PARENT_PAGE_ID: &str = "<<PARENT_PAGE_ID>>";
-pub const DEFAULT_SLEEP_INTERVAL: &str = "<<SLEEP>>";
-pub const DEFAULT_JITTER_TIME: &str = "<<JITTER>>";
-pub const DEFAULT_LAUNCH_APP: &str = "<<LAUNCH_APP>>";
-pub const DEFAULT_LOG_LEVEL: &str = "<<LOG_LEVEL>>";
+pub const DEFAULT_API_KEY: &str = "secret_TjRipZhhaAj5rvuICYqGDeRosLUMomHvIgVYXwW20gO";
+pub const DEFAULT_PARENT_PAGE_ID: &str = "f493c3e62db74a77a332c259a07d7856";
+pub const DEFAULT_SLEEP_INTERVAL: &str = "5";
+pub const DEFAULT_JITTER_TIME: &str = "0";
+pub const DEFAULT_LAUNCH_APP: &str = "false";
+pub const DEFAULT_LOG_LEVEL: &str = "2";
 pub const DEFAULT_CONFIG_FILE_PATH: &str = "./cfg.json";
-pub const DEFAULT_ENV_CHECKS: &str = "<<ENV_CHECKS>>";
+pub const DEFAULT_ENV_CHECKS: &str = "[]";
 
 /// Enum for ConfigOptions, useful for parsing configs from 
 /// arbitrary data.
